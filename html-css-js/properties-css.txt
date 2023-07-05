@@ -1,0 +1,51 @@
+ thuộc tính thường được sử dụng trong CSS:
+
+1. Thuộc tính màu sắc và nền:
+   - color: Định nghĩa màu sắc cho văn bản.
+   - background-color: Định nghĩa màu nền cho phần tử.
+   - opacity: Xác định độ mờ của phần tử.
+
+2. Thuộc tính font chữ:
+   - font-family: Định nghĩa kiểu font chữ.
+   - font-size: Định nghĩa kích thước font chữ.
+   - font-weight: Xác định độ đậm nhẹ của font chữ.
+   - font-style: Định nghĩa kiểu chữ (bình thường, in nghiêng, ...)
+   - text-decoration: Xác định gạch chân, gạch ngang, hoặc gạch trên văn bản.
+
+3. Thuộc tính kích thước và khoảng cách:
+   - width: Định nghĩa chiều rộng của phần tử.
+   - height: Định nghĩa chiều cao của phần tử.
+   - margin: Xác định khoảng cách bên ngoài của phần tử.
+   - padding: Xác định khoảng cách bên trong của phần tử.
+   - border-width: Định nghĩa độ dày của đường viền.
+   - box-sizing: Xác định cách tính toán kích thước của phần tử (content-box, border-box, ...).
+
+4. Thuộc tính định vị và căn chỉnh:
+   - position: Xác định vị trí của phần tử (absolute, relative, fixed, ...).
+   - top, bottom, left,right`: Xác định vị trí của phần tử theo các hướng.
+   - display: Định nghĩa cách hiển thị phần tử (block, inline, inline-block, none, ...).
+   - float: Định nghĩa hướng dòng của phần tử (left, right).
+   - clear: Xác định phải xoá hết các phần tử float trong cả hai phía hoặc một bên cụ thể.
+
+5. Thuộc tính đường viền và góc bo:
+   - border: Định nghĩa đường viền của phần tử (bao gồm độ dày, kiểu viền và màu sắc).
+   - border-radius: Định nghĩa góc bo cho phần tử.
+   - box-shadow: Định nghĩa hiệu ứng bóng đổ cho phần tử.
+
+6. Thuộc tính hiển thị hình ả
+
+nh:
+   - background-image: Định nghĩa hình ảnh nền cho phần tử.
+   - background-size: Định nghĩa kích thước hình ảnh nền.
+   - background-repeat: Xác định cách lặp lại hình ảnh nền.
+   - background-position: Định nghĩa vị trí xuất phát của hình ảnh nền.
+
+7. Thuộc tính hiển thị và ẩn:
+   -visibility: Xác định phần tử có được hiển thị hay không.
+   - display: Định nghĩa cách hiển thị phần tử.
+
+8. Thuộc tính định dạng văn bản:
+   - text-align: Căn chỉnh văn bản bên trong phần tử (left, right, center, justify).
+   - text-transform: Chuyển đổi chữ hoa, chữ thường, chữ in hoa đầu từ, ...
+   - line-height: Định nghĩa khoảng cách dòng giữa các dòng văn bản.
+   - white-space: Xác định cách xử lý khoảng trắng trong văn bản.

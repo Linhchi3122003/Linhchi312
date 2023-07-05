@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/bai2.css">
+    <link href="https://example.com/font.css" rel="stylesheet">
+    <link rel="stylesheet" href="responsive/index2.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="logo">
+            <img src="anh/logo 1.svg" alt="">
+        </div>
+        <div class="nav">
+            <div class="menu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Tech Stack</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li class="nav-list--item">
+                        <span class="link-item" class="active" onclick="openPopup()">Contact</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="icon-nav">
+                <ul>
+                    <li><a href=""><img src="anh/git.svg" alt=""></a></li>
+                    <li><a href=""><img src="anh/twitter.svg" alt=""></a></li>
+                    <li><a href=""><img src="anh/in.svg" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- form -->
+    <div class="infor-user hide" id="helloPopup">
+        <form action="" id="form" class="form">
+            <div class="form-ground">
+                <label for="fullname" class="form-laber">Họ Tên</label>
+
+                <input id="fullname" type="text" name="fullname"
+                placeholder="VD:Nguyễn Thị Linh Chi" class="form-control">
+
+                <span class="form-message"></span>
+            </div>
+
+            <div class="form-ground">
+                <label for="email" class="form-laber">Email</label>
+
+                <input id="email" type="email" name="email" 
+                placeholder="VD:nlinhchi166@gmail.com"
+                class="form-control">
+
+                <span class="form-message"></span>
+            </div>
+
+            <div class="form-ground">
+                <label class="form-laber">Tin Nhắn</label>
+
+                <textarea name="" id="" cols="30" rows="10" placeholder="Ghi Chu"></textarea>
+            </div>
+
+            <div class="close-form">
+                <button class="button" onclick="closePopup()">
+                    Thoát
+                </button>
+            </div>
+        </form>
+    </div>
+    <!-- section-1 -->
+    <section-1>
+        <div class="infor">
+            <p>
+                Hi 👋, <br>
+                My name is <br>
+                <span>Pavan MG</span> <br>
+                I build things for web
+            </p>
+        </div>
+        <div class="img-infor">
+            <img src="anh/img-infor-index2.png" alt="">
+        </div>
+    </section-1>
+    <!-- section-2 MY TECH STACK-->
+    <section-2>
+        <div class="text">
+            <div class="title">My Tech Stack</div>
+            <div class="text-title"> Technologies I’ve been working with recently</div>
+        </div>
+        <div class="tech-stack">
+            <div class="row-tech-stack">
+                <div class="img-tech-stack">
+                    <img src="anh/icon-1.svg" alt="">
+                </div>
+                <div class="img-tech-stack">
+                    <img src="anh/icon-2.svg" alt="">
+                </div>
+                <div class="img-tech-stack">
+                    <img src="anh/icon-3.svg" alt="">
+                </div>
+                <div class="img-tech-stack">
+                    <img src="anh/icon-4.svg" alt="">
+                </div>
+                <div class="img-tech-stack">
+                    <img src="anh/icon-5.svg" alt="">
+                </div>
+                <div class="img-tech-stack">
+                    <img src="anh/icon-6.svg" alt="">
+                </div>
+                <div class="img-tech-stack">
+                    <img src="anh/icon-7.svg" alt="">
+                </div>
+                <div class="img-tech-stack">
+                    <img src="anh/icon-8.svg" alt="">
+                </div>
+                <div class="img-tech-stack">
+                    <img src="anh/icon-9.svg" alt="">
+                </div>
+                <div class="img-tech-stack">
+                    <img src="anh/icon-7.svg" alt="">
+                </div>
+                <div class="img-tech-stack">
+                    <img src="anh/icon-11.svg" alt="">
+                </div>
+                <div class="img-tech-stack">
+                    <img src="anh/icon-11.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section-2>
+    <!-- section-3 PROJECT -->
+    <section-3>
+        <div class="project">
+            <div class="text">
+                <h2>Project</h2>
+                <p>Things I’ve built so far</p>
+            </div>
+            <div class="content"> 
+                <div class="content-child">
+                    <div class="img-content"> 
+                        <img src="anh/content-1.png" alt="">
+                    </div>
+                    <div class="text-content">
+                        <h3>Project Tile goes here</h3>
+                        <p class="text-1">
+                            This is sample project description random things are here in description This is sample
+                            project lorem ipsum generator for dummy content
+                        </p>
+                        <p class="text-2">
+                            <span style=" font-size: 13px;">Tech stack :</span> <span style="    font-size: 10px;">HTML , JavaScript, SASS, React</span>
+                        </p>
+                        <span class="review" style="line-height: 20px;"><img src="anh/live-preview.svg" alt=""> Live preview</span>
+                        <span class="review" style="line-height: 20px;"><img src="anh/view-code.svg" alt=""> View code</span>
+                    </div>
+                </div>
+                <div class="content-child">
+                    <div class="img-content">
+                        <img src="anh/content-2.png" alt="">
+                    </div>
+                    <div class="text-content">
+                        <h3>Project Tile goes here</h3>
+                        <p class="text-1">
+                            This is sample project description random things are here in description This is sample
+                            project lorem ipsum generator for dummy content
+                        </p>
+                        <p class="text-2">
+                            <span style=" font-size: 13px;">Tech stack :</span> <span style="    font-size: 10px;">HTML , JavaScript, SASS, React</span>
+                        </p>
+                        <span class="review"><img src="anh/live-preview.svg" alt=""> Live preview</span>
+                        <span class="review"><img src="anh/view-code.svg" alt=""> View code</span>
+                    </div>
+                </div>
+                <div class="content-child">
+                    <div class="img-content">
+                        <img src="anh/content-3.png" alt="">
+                    </div>
+                    <div class="text-content">
+                        <h3>Project Tile goes here</h3>
+                        <p class="text-1">
+                            This is sample project description random things are here in description This is sample
+                            project lorem ipsum generator for dummy content
+                        </p>
+                        <p class="text-2">
+                            <span style=" font-size: 13px;">Tech stack :</span> <span style="    font-size: 10px;">HTML , JavaScript, SASS, React</span>
+                        </p>
+                        <span class="review"><img src="anh/live-preview.svg" alt=""> Live preview</span>
+                        <span class="review"><img src="anh/view-code.svg" alt=""> View code</span>
+                    </div>
+                </div>
+                <div class="content-child">
+                    <div class="img-content">
+                        <img src="anh/content-4.png" alt="">
+                    </div>
+                    <div class="text-content">
+                        <h3>Project Tile goes here</h3>
+                        <p class="text-1">
+                            This is sample project description random things are here in description This is sample
+                            project lorem ipsum generator for dummy content
+                        </p>
+                        <p class="text-2">
+                            <span style=" font-size: 13px;">Tech stack :</span> <span style="    font-size: 10px;">HTML , JavaScript, SASS, React</span>
+                        </p>
+                        <span class="review"><img src="anh/live-preview.svg" alt=""> Live preview</span>
+                        <span class="review"><img src="anh/view-code.svg" alt=""> View code</span>
+                    </div>
+                </div>
+                <div class="content-child">
+                    <div class="img-content">
+                        <img src="anh/content-5.png" alt="">
+                    </div>
+                    <div class="text-content">
+                        <h3>Project Tile goes here</h3>
+                        <p class="text-1">
+                            This is sample project description random things are here in description This is sample
+                            project lorem ipsum generator for dummy content
+                        </p>
+                        <p class="text-2">
+                            <span style=" font-size: 13px;">Tech stack :</span> <span style="    font-size: 10px;">HTML , JavaScript, SASS, React</span>
+                        </p>
+                        <span class="review"><img src="anh/live-preview.svg" alt=""> Live preview</span>
+                        <span class="review"><img src="anh/view-code.svg" alt=""> View code</span>
+                    </div>
+                </div>
+                <div class="content-child">
+                    <div class="img-content">
+                        <img src="anh/content-6.png" alt="">
+                    </div>
+                    <div class="text-content">
+                        <h3>Project Tile goes here</h3>
+                        <p class="text-1">
+                            This is sample project description random things are here in description This is sample
+                            project lorem ipsum generator for dummy content
+                        </p>
+                        <p class="text-2">
+                            <span style=" font-size: 13px;">Tech stack :</span> <span style="    font-size: 10px;">HTML , JavaScript, SASS, React</span>
+                        </p>
+                        <span class="review"><img src="anh/live-preview.svg" alt=""> Live preview</span>
+                        <span class="review"><img src="anh/view-code.svg" alt=""> View code</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section-3>
+    <!-- Footer -->
+    <footer>
+        <section-4>
+            <div class="logo">
+                <img src="anh/logo 1.svg" alt="">
+            </div>
+            <div class="contact">
+                <div class="infor-contact">
+                    <p>+91 12345 09876</p>
+                    <p>info@example.com</p>
+                </div>
+                <div class="icon-nav">
+                    <ul>
+                        <li><img src="anh/git.svg" alt=""></li>
+                        <li><img src="anh/twitter.svg" alt=""></li>
+                        <li><img src="anh/in.svg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </section-4>
+        <div class="gach">
+        </div>
+        <section-5>
+            <div class="menu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Tech Stack</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="status-footer">
+                <p>Designed and built by <span>Pavan MG</span> with <span>Love & Coffee</span></p>
+            </div>
+        </section-5>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
